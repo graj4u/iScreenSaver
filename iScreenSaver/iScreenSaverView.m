@@ -22,6 +22,19 @@
 - (void)startAnimation
 {
     [super startAnimation];
+
+    QTMovieView             *movieView;
+    
+    NSError* error = nil;
+    QTMovie* movie = [QTMovie movieWithURL:[[NSBundle mainBundle] URLForResource:@"SS" withExtension:@"mp4"] error:&error];
+    if(movie != nil)
+    {
+        [movieView setMovie:movie];
+    }
+    else
+    {
+        NSLog(@"Error loading movie: %@", [error localizedDescription]);
+    }
 }
 
 - (void)stopAnimation

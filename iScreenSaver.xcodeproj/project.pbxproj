@@ -11,6 +11,8 @@
 		B94DB40E15DA0A7A00555950 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B94DB40D15DA0A7A00555950 /* ScreenSaver.framework */; };
 		B94DB41815DA0A7A00555950 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B94DB41615DA0A7A00555950 /* InfoPlist.strings */; };
 		B94DB41C15DA0A7A00555950 /* iScreenSaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = B94DB41B15DA0A7A00555950 /* iScreenSaverView.m */; };
+		B94DB42315DA0CAC00555950 /* SS.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B94DB42215DA0CAC00555950 /* SS.mp4 */; };
+		B94DB42A15DA181700555950 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B94DB42915DA181700555950 /* QTKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		B94DB41915DA0A7A00555950 /* iScreenSaver-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iScreenSaver-Prefix.pch"; sourceTree = "<group>"; };
 		B94DB41A15DA0A7A00555950 /* iScreenSaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iScreenSaverView.h; sourceTree = "<group>"; };
 		B94DB41B15DA0A7A00555950 /* iScreenSaverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iScreenSaverView.m; sourceTree = "<group>"; };
+		B94DB42215DA0CAC00555950 /* SS.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = SS.mp4; sourceTree = "<group>"; };
+		B94DB42915DA181700555950 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = System/Library/Frameworks/QTKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B94DB42A15DA181700555950 /* QTKit.framework in Frameworks */,
 				B94DB40C15DA0A7A00555950 /* Cocoa.framework in Frameworks */,
 				B94DB40E15DA0A7A00555950 /* ScreenSaver.framework in Frameworks */,
 			);
@@ -60,6 +65,7 @@
 		B94DB40A15DA0A7A00555950 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B94DB42915DA181700555950 /* QTKit.framework */,
 				B94DB40B15DA0A7A00555950 /* Cocoa.framework */,
 				B94DB40D15DA0A7A00555950 /* ScreenSaver.framework */,
 				B94DB40F15DA0A7A00555950 /* Other Frameworks */,
@@ -90,6 +96,7 @@
 		B94DB41415DA0A7A00555950 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B94DB42215DA0CAC00555950 /* SS.mp4 */,
 				B94DB41515DA0A7A00555950 /* iScreenSaver-Info.plist */,
 				B94DB41615DA0A7A00555950 /* InfoPlist.strings */,
 				B94DB41915DA0A7A00555950 /* iScreenSaver-Prefix.pch */,
@@ -161,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B94DB41815DA0A7A00555950 /* InfoPlist.strings in Resources */,
+				B94DB42315DA0CAC00555950 /* SS.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

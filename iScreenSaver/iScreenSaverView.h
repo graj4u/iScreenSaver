@@ -7,6 +7,7 @@
 //
 
 #import <ScreenSaver/ScreenSaver.h>
+#import <QTKit/QTKit.h>
 
 @interface iScreenSaverView : ScreenSaverView
 
